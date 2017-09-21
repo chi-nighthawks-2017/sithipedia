@@ -37,10 +37,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'coveralls', require: false
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'rake'
-  gem 'rails_helper'
+  gem 'rspec-rails', '~> 3.6'
+  gem 'capybara', '~> 2.13'
+  gem 'selenium-webdriver'
+  gem 'factory_girl_rails'
 end
 
 group :development do
